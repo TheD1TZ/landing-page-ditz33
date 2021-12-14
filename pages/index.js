@@ -9,7 +9,7 @@ console.log("Hello mister Inspect Element")
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div className="min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
       <div className="flex justify-center text-center align-middle">
         <Head>
           <title>Ditz LandingPage</title>
@@ -28,17 +28,16 @@ export default function Home() {
         </main>
       </div>
 
+      <br />
+      <br />
+      <br />
 
       {/*Project List */}
       <div className="flex justify-center">
         <div className="gap-x-10 gap-y-10 justify-center grid grid-cols-4">
-          <Project title="Test" description="test" imgSrc={"/../public/favicon.ico"} codingLang={"css"} linkUrl={"https://ditz33.xyz/"}/>
-          <Project title="Test" description="test" imgSrc={"/../public/favicon.ico"} codingLang={"css"} linkUrl={"https://ditz33.xyz/"}/>
-          <Project title="Test" description="test" imgSrc={"/../public/favicon.ico"} codingLang={"css"} linkUrl={"https://ditz33.xyz/"}/>
-          <Project title="Test" description="test" imgSrc={"/../public/favicon.ico"} codingLang={"css"} linkUrl={"https://ditz33.xyz/"}/>
-          <Project title="Test" description="test" imgSrc={"/../public/favicon.ico"} codingLang={"css"} linkUrl={"https://ditz33.xyz/"}/>
-          <Project title="Test" description="test" imgSrc={"/../public/favicon.ico"} codingLang={"css"} linkUrl={"https://ditz33.xyz/"}/>
-          <Project title="Test" description="test" imgSrc={"/../public/favicon.ico"} codingLang={"css"} linkUrl={"https://ditz33.xyz/"}/>
+          <Project title="Bread." description="Brood is lekker" imgSrc={"https://cumming.xyz/FUgA2/CafEsuDA71.gif/raw"} codingLang={"bread"} linkUrl={"https://cumming.xyz/FUgA2/vATOZaTU03.mp4/raw"} />
+          <Project title="Test" description="test" imgSrc={"https://cumming.xyz/FUgA2/yifUZiBe09.png/raw"} codingLang={"css"} linkUrl={"https://ditz33.xyz/"} />
+          <Project title="Just Plugins" description="A minecraft plugin development team" imgSrc={"https://cumming.xyz/FUgA2/MaXexErO22.png/raw"} codingLang={"java"} linkUrl={"https://github.com/Just-Plugins"} />
         </div>
       </div>
     </div>
