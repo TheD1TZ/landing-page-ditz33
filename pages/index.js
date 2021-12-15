@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Project from '../components/Project'
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   ChevronDownIcon
 } from '@heroicons/react/solid'
@@ -20,7 +20,7 @@ export default function Home() {
           <link rel="icon" href="https://cumming.xyz/FUgA2/gaXixAKA60.ico/raw" />
         </Head>
 
-        <main className="font-sans text-white p-96">
+        <main className="font-sans text-white xl:p-96 lg:p-11">
           <h1 className="flex justify-center text-6xl font-bold">
             Welcome to the Ditz LandingPage
           </h1>
@@ -37,7 +37,7 @@ export default function Home() {
 
       {/*Project List */}
       <div className="flex justify-center p-5" id="projectss">
-        <div className="gap-x-10 gap-y-10 justify-center grid grid-cols-4">
+        <div className="gap-x-10 gap-y-10 justify-center grid xl:grid-cols-4">
           <Project title="Ditz's Landing Page" description="This page with all my current projects" imgSrc={"https://cumming.xyz/FUgA2/yifUZiBe09.png/raw"} codingLang={"javascript #nextjs"} linkUrl={"https://github.com/TheD1TZ/landing-page-ditz33"} />
           <Project title="Just Plugins" description="A minecraft plugin development team" imgSrc={"https://cumming.xyz/FUgA2/MaXexErO22.png/raw"} codingLang={"java"} linkUrl={"https://github.com/Just-Plugins"} />
           <Project title="Madmize's Discord Bot" description="A Discord bot for Madmize his discord server." imgSrc={"https://cumming.xyz/FUgA2/BiZesArI09.png/raw"} codingLang={"java"} linkUrl={"https://github.com/TheD1TZ/MadMizes-Slave"} />
