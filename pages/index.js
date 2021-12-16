@@ -33,7 +33,10 @@ export default function Home() {
         </main>
       </div>
 
-      <p className="flex text-5xl font-bold drop-shadow-2xl text-white justify-center p-16">Projects</p>
+      <div className='p-16'>
+      <p className="flex text-5xl font-bold drop-shadow-2xl text-white justify-center">Projects</p>
+      <p className="flex text-2xl drop-shadow-2xl text-white justify-center p-2">Click on any project to see the source code.</p>
+      </div>
 
       {/*Project List */}
       <div className="flex justify-center p-5" id="projectss">
