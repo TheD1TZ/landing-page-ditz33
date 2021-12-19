@@ -42,6 +42,7 @@ export default function Home() {
       <div className="flex justify-center p-5" id="projectss">
         <div className="gap-x-10 gap-y-10 justify-center grid xl:grid-cols-4">
           <Project title="Ditz's Landing Page" description="This page with all my current projects" imgSrc={"https://cumming.xyz/FUgA2/yifUZiBe09.png/raw"} codingLang={"javascript #nextjs"} linkUrl={"https://github.com/TheD1TZ/landing-page-ditz33"} />
+          <Project title="Magister 2.0" description="A reworked version of Magister" imgSrc={"https://cumming.xyz/FUgA2/YAZoSEkA80.png/raw"} codingLang={"javascrip"} linkUrl={"https://github.com/TheD1TZ/magister-2"} />
           <Project title="Just Plugins" description="A minecraft plugin development team" imgSrc={"https://cumming.xyz/FUgA2/MaXexErO22.png/raw"} codingLang={"java"} linkUrl={"https://github.com/Just-Plugins"} />
           <Project title="Madmize's Discord Bot" description="A Discord bot for Madmize his discord server." imgSrc={"https://cumming.xyz/FUgA2/BiZesArI09.png/raw"} codingLang={"java"} linkUrl={"https://github.com/TheD1TZ/MadMizes-Slave"} />
         </div>
