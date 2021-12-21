@@ -8,7 +8,7 @@ import {
 //code
 
 
-export default function codeclub() {
+function Codeclub() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
       <div className="flex justify-center text-center align-middle">
@@ -39,3 +39,5 @@ export default function codeclub() {
     </div>
   )
 }
+
+export default Codeclub
