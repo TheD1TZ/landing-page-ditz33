@@ -1,13 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Project from '../components/Project'
 import React, { useEffect, useState } from 'react';
 import {
   ChevronDownIcon
 } from '@heroicons/react/solid'
 
 //code
-console.log("Hello mister Inspect Element")
 
 
 export default function Home() {
