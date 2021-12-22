@@ -10,7 +10,7 @@ import {
 
 function Codeclub() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div className="min-h-screen bg-gradient-to-r from-gray-900 to-slate-900">
       <div className="flex justify-center text-center align-middle">
         <Head>
           <title>Code Club</title>
