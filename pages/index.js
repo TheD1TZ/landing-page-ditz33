@@ -9,6 +9,15 @@ import {
 //code
 console.log("Hello mister Inspect Element")
 
+const scrollToBottom = () => {
+  window.scrollTo({
+    top: document.documentElement.scrollHeight,
+    behavior: 'smooth'
+    /* you can also use 'auto' behaviour 
+       in place of 'smooth' */
+  });
+};
+
 
 export default function Home() {
   return (
@@ -17,7 +26,7 @@ export default function Home() {
         <Head>
           <title>Ditz LandingPage</title>
           <meta name="description" content="The Ditz Landingpage is full of all mine projects!" />
-          <link rel="icon" href="https://cumming.xyz/FUgA2/gaXixAKA60.ico/raw" />
+          <link rel="icon" href="img/favicon.ico" />
         </Head>
 
         <main className="font-sans text-white xl:p-96 lg:p-11">
@@ -27,24 +36,22 @@ export default function Home() {
           <p className="flex justify-center text-3xl p-2">
             All my projects in a row!
           </p>
-          <button className="p-2">
+          <button className="p-2" onClick={scrollToBottom}>
             <ChevronDownIcon className="h-20 w-20 animate-bounce" />
           </button>
         </main>
       </div>
 
       <div className='p-16'>
-      <p className="flex text-5xl font-bold drop-shadow-2xl text-white justify-center">Projects</p>
-      <p className="flex text-2xl drop-shadow-2xl text-white justify-center p-2">Click on any project to see the source code.</p>
+        <p className="flex text-5xl font-bold drop-shadow-2xl text-white justify-center">Projects</p>
+        <p className="flex text-2xl drop-shadow-2xl text-white justify-center p-2">Click on any project to see the source code.</p>
       </div>
 
       {/*Project List */}
       <div className="flex justify-center p-5" id="projectss">
-        <div className="gap-x-10 gap-y-10 justify-center grid xl:grid-cols-4">
-          <Project title="Ditz's Landing Page" description="This page with all my current projects" imgSrc={"https://cumming.xyz/FUgA2/yifUZiBe09.png/raw"} codingLang={"javascript #nextjs"} linkUrl={"https://github.com/TheD1TZ/landing-page-ditz33"} />
-          <Project title="Magister 2.0" description="A reworked version of Magister" imgSrc={"https://cumming.xyz/FUgA2/YAZoSEkA80.png/raw"} codingLang={"javascript"} linkUrl={"https://github.com/TheD1TZ/magister-2"} />
-          <Project title="Just Plugins" description="A minecraft plugin development team" imgSrc={"https://cumming.xyz/FUgA2/MaXexErO22.png/raw"} codingLang={"java"} linkUrl={"https://github.com/Just-Plugins"} />
-          <Project title="Madmize's Discord Bot" description="A Discord bot for Madmize his discord server." imgSrc={"https://cumming.xyz/FUgA2/BiZesArI09.png/raw"} codingLang={"java"} linkUrl={"https://github.com/TheD1TZ/MadMizes-Slave"} />
+        <div className="gap-x-10 gap-y-10 grid xl:grid-cols-4">
+          <Project title="Ditz's Landing Page" description="This page with all my current projects" imgSrc={"/img/favicon.ico"} codingLang={"javascript #nextjs"} linkUrl={"https://github.com/TheD1TZ/landing-page-ditz33"} />
+          <Project title="Just Plugins" description="A minecraft plugin development team" imgSrc={"/img/justplugins-logov2.png"} codingLang={"java"} linkUrl={"https://github.com/Just-Plugins"} />
         </div>
       </div>
 
